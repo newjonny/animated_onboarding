@@ -92,7 +92,7 @@ class _AnimatedOnboardingState extends State<AnimatedOnboarding> {
             itemBuilder: (c, i) => Align(
               alignment: Alignment.topCenter,
               child: Padding(
-                padding: const EdgeInsets.only(top: 100),
+                padding: const EdgeInsets.only(top: 50),
                 child: _AnimatedBody(
                   child: widget.pages.elementAt(i).child,
                 ),
