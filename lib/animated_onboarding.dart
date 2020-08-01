@@ -112,7 +112,7 @@ class _AnimatedOnboardingState extends State<AnimatedOnboarding> {
                       FlatButton(
                         onPressed: () => widget.onFinishedButtonTap(),
                         child: Text(
-                          "Finish",
+                          "Fertig",
                           style: TextStyle(
                               color: Colors.white, fontWeight: FontWeight.bold),
                         ),
